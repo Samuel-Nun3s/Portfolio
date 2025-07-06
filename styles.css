@@ -112,6 +112,7 @@ nav ul li a:hover {
 
 #home-photo {
   height: 70%;
+  width: 100%;
   padding: 30px;
   display: flex;
   justify-content: center;
