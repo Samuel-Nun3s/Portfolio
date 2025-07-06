@@ -116,7 +116,7 @@ nav ul li a:hover {
 
 #home-photo {
   height: 70%;
-  width: 90%;
+  width: 100%;
   padding: 30px;
   display: flex;
   justify-content: center;
@@ -124,7 +124,7 @@ nav ul li a:hover {
 }
 
 #personal-photo {
-  height: 100%;
+  width: 100%;
   border-radius: 50%;
   border: 3px solid var(--black);
   box-shadow: 1px 1px 10px var(--black);
