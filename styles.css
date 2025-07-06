@@ -101,6 +101,10 @@ nav ul li a:hover {
   color: var(--gray);
   text-align: center;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #home-text {
@@ -112,7 +116,7 @@ nav ul li a:hover {
 
 #home-photo {
   height: 70%;
-  width: 100%;
+  width: 90%;
   padding: 30px;
   display: flex;
   justify-content: center;
@@ -336,6 +340,10 @@ h1, h2, h3 {
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+  }
+
+  #home-photo {
+    width: 40%;
   }
 
   #home-text {
