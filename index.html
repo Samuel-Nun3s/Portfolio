@@ -4,41 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/JetBrains+Mono">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Fira+Code">
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <header>
-    <div>
+    <div id="navbar">
       <h3>Samuel Nunes</h3>
-      <nav>
+      <span id="burguer" class="material-symbols-outlined">menu</span>
+      <nav class="hidden">
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <a href="#home">Inicio</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about">Sobre mim</a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#skills">Habilidades</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects">Projetos</a>
           </li>
         </ul>
       </nav>
     </div>
-    <div>
-      <div>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident totam, nemo reiciendis, ut accusantium officia numquam nostrum fuga repellendus accusamus, voluptas velit cum commodi cumque tenetur itaque. Porro, consectetur eos.</p>
+    <div id="home">
+      <div id="home-text">
+        <p>Transformo ideias em soluções através do código, com foco em automações e desenvolvimento web.</p>
       </div>
-      <div>
-        <img src="" alt="Samuel Nunes">
+      <div id="home-photo">
+        <img src="images/foto-pessoal.jpg" alt="Samuel Nunes" id="personal-photo">
       </div>
     </div>
   </header>
 
   <main>
-    <section> <!-- Sobre mim -->
+    <section id="about"> <!-- Sobre mim -->
       <p>
         Olá! Meu nome é Samuel Nunes, tenho 19 anos e sou apaixonado por tecnologia e programação. Estou atualmente cursando Análise e Desenvolvimento de Sistemas, buscando constantemente evoluir meus conhecimentos e habilidades na área de desenvolvimento de software. Minha jornada na programação começou há cerca de três anos, quando tive meu primeiro contato com a linguagem Python — uma experiência que despertou meu interesse por lógica e resolução de problemas.
       </p>
