@@ -78,6 +78,7 @@ nav ul li a:hover {
   width: 100%;
   height: 90%;
   padding: 20px;
+  box-shadow: 1px 1px 10px var(--black);
   background-color: var(--secundary);
   color: var(--gray);
   text-align: center;
@@ -114,11 +115,15 @@ main {
 #about {
   color: var(--gray);
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+}
+
+#about h2 {
+  margin-bottom: 20px;
 }
 
 #skills {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -136,6 +141,7 @@ main {
   height: 330px;
   padding: 20px;
   background-color: var(--secundary);
+  box-shadow: 1px 1px 10px var(--black);
 }
 
 .card-skill-img {
@@ -155,6 +161,54 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#projects {
+  margin-bottom: 50px;
+  text-align: center;
+  color: var(--gray);
+}
+
+#projects-cards {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-project {
+  width: 320px;
+  height: 420px;
+  padding: 20px;
+  background-color: var(--secundary);
+  box-shadow: 1px 1px 10px var(--black);
+}
+
+.card-project-img {
+  width: 100%;
+  height: 50%;
+  margin-bottom: 10px;
+}
+
+.card-project-img img {
+  height: 100%;
+  width: 100%;
+  box-shadow: 1px 1px 10px var(--black);
+}
+
+.card-project-text {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-project-text h3 {
+  margin-bottom: 10px;
 }
 
 h1, h2, h3 {
