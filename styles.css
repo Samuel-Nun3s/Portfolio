@@ -27,14 +27,28 @@ body {
 header {
   width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-content {
+  width: 100%;
+  height: 10%;
+  background-color: var(--primary);
+  box-shadow: 1px 1px 10px var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #navbar {
   width: 100%;
-  height: 10%;
-  padding: 10px;
-  background-color: var(--primary);
-  box-shadow: 1px 1px 10px var(--black);
+  max-width: 1100px;
+  height: 100%;
+  padding: 30px;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -42,7 +56,7 @@ header {
 }
 
 nav {
-  width: 95%;
+  width: 85%;
   margin-top: 200px;
   padding: 20px;
   border-radius: 10px;
@@ -110,9 +124,14 @@ nav ul li a:hover {
 main {
   margin: 40px 0px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #about {
+  max-width: 1200px;
   color: var(--gray);
   text-align: center;
   margin-bottom: 50px;
@@ -123,15 +142,17 @@ main {
 }
 
 #skills {
+  width: 100%;
+  max-width: 1170px;
   margin-bottom: 50px;
-  text-align: center;
+  text-align: center;   
 }
 
 #skills-cards {
   margin-top: 20px;
   display: flex;
   gap: 20px;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -164,6 +185,7 @@ main {
 }
 
 #projects {
+  max-width: 1040px;
   margin-bottom: 50px;
   text-align: center;
   color: var(--gray);
@@ -173,7 +195,7 @@ main {
   margin-top: 20px;
   display: flex;
   gap: 20px;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -212,6 +234,7 @@ main {
 }
 
 #curiosities {
+  max-width: 1200px;
   padding: 10px;
   background-color: var(--primary);
   color: var(--gray);
